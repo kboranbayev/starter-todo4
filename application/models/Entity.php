@@ -9,14 +9,14 @@
 class Entity extends CI_Model {
     
     // All properties of a task
-    public $id;
-    public $task;
-    public $priority;
-    public $size;
-    public $group;
-    public $deadline;
-    public $status;
-    public $flag;
+    private $id;
+    private $task;
+    private $priority;
+    private $size;
+    private $group;
+    private $deadline;
+    private $status;
+    private $flag;
 
     // If this class has a setProp method, use it, else modify the property directly
     // Magic setter
@@ -39,42 +39,34 @@ class Entity extends CI_Model {
     // Setter method for the property ID
     public function setId($id) {
         $this->id = $id;
-        return $this;
     }
     // Setter method for the property task
     public function setTask($task) {
         $this->task = $task;
-        return $this;
     }
     // Setter method for the property priority
     public function setPriority($priority) {
         $this->priority = $priority;
-        return $this;
     }
     // Setter method for the property size
     public function setSize($size) {
         $this->size = $size;
-        return $this;
     }
     // Setter method for the property group
     public function setGroup($group) {
         $this->group = $group;
-        return $this;
     }
     // Setter method for the property deadline
     public function setDeadline($deadline) {
         $this->deadline = $deadline;
-        return $this;
     }
     // Setter method for the property status
     public function setStatus($status) {
         $this->status = $status;
-        return $this;
     }
     // Setter method for the property flag
     public function setFlag($flag) {
         $this->flag = $flag;
-        return $this;
     }
 }
 
