@@ -10,10 +10,6 @@ class Entity extends CI_Model {
     
     // All properties of a task
     private $id;
-    private $task;
-    private $priority;
-    private $size;
-    private $group;
     private $deadline;
     private $status;
     private $flag;
@@ -40,22 +36,7 @@ class Entity extends CI_Model {
     public function setId($id) {
         $this->id = $id;
     }
-    // Setter method for the property task
-    public function setTask($task) {
-        $this->task = $task;
-    }
-    // Setter method for the property priority
-    public function setPriority($priority) {
-        $this->priority = $priority;
-    }
-    // Setter method for the property size
-    public function setSize($size) {
-        $this->size = $size;
-    }
-    // Setter method for the property group
-    public function setGroup($group) {
-        $this->group = $group;
-    }
+   
     // Setter method for the property deadline
     public function setDeadline($deadline) {
         $this->deadline = $deadline;
