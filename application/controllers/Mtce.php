@@ -11,6 +11,7 @@ class Mtce extends Application {
     // Show a single page of todo items
     private function show_page($tasks) {
         $role = $this->session->userdata('userrole');
+
         // build the task presentation output
         $result = ''; // start with an empty array
         $this->data['pagetitle'] = 'TODO List Maintenance ('. $role . ')';
@@ -28,7 +29,6 @@ class Mtce extends Application {
         $this->data['pagebody'] = 'itemlist';
         $this->render();
     }
-
     // Extract & handle a page of items, defaulting to the beginning
     function page($num = 1) {
         $records = $this->tasks->all(); // get all the tasks
@@ -52,7 +52,6 @@ class Mtce extends Application {
           $this->data['pagination'] .= $this->parser->parse('itemadd', [], true);
         $this->show_page($tasks);
     }
-
     // Build the pagination navbar
     private function pagenav($num) {
         $lastpage = ceil($this->tasks->size() / $this->items_per_page);
@@ -64,7 +63,6 @@ class Mtce extends Application {
         );
         return $this->parser->parse('itemnav', $parms, true);
     }
-
     // Initiate adding a new task
     public function add() {
         $task = $this->tasks->create();

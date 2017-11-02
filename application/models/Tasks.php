@@ -29,7 +29,6 @@ class Tasks extends CSV_Model {
 
             return $converted;
         }
-
         // provide form validation rules
         public function rules()
         {
