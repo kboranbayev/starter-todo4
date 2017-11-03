@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-class Entity extends CI_Model {
+class Entity {
     
     // All properties of a task
     private $id;

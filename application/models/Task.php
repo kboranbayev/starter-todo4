@@ -1,10 +1,5 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+include('Entity.php');
 
 class Task extends Entity {
     
@@ -15,19 +10,37 @@ class Task extends Entity {
     
      // Setter method for the property task
     public function setTask($task) {
-        $this->task = $task;
+        // Check if the string is lesser than 64 characters
+        // Any character is allowed along with whitespace
+        if (strlen($task) <= 64) {
+            $this->task = $task;
+        }
     }
+    // Getter method for task property
+    public function getTask() { return $this->task; }
+    
     // Setter method for the property priority
     public function setPriority($priority) {
-        $this->priority = $priority;
+        if ((!preg_match("/[a-z]/i", $priority)) && strlen($priority) <= 4)
+            $this->priority = $priority;
     }
+    // Getter method for priority property
+    public function getPriority() { return $this->priority; }
+    
     // Setter method for the property size
     public function setSize($size) {
-        $this->size = $size;
+        if ((!preg_match("/[a-z]/i", $size)) && strlen($size) <= 4)
+            $this->size = $size;
     }
+    // Getter method for the size property
+    public function getSize() { return $this->size; }
+    
     // Setter method for the property group
     public function setGroup($group) {
-        $this->group = $group;
+        if ((!preg_match("/[a-z]/i", $group)) && strlen($group) <= 5)
+            $this->group = $group;
     }
+    // Getter method for the group property
+    public function getGroup() { return $this->group; }
 }
 

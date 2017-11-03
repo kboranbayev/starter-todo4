@@ -11,11 +11,11 @@
     processIsolation="false"
     syntaxCheck="false"
     cacheTokens="true"
-    verbose="false"
-    bootstrap="tests/Bootstrap.php">
+    verbose="true"
+    bootstrap="application/tests/Bootstrap.php">
     <testsuites>
         <testsuite name="CITools Test Suite">
-            <directory>./tests/</directory>
+            <directory>./application/tests/</directory>
         </testsuite>
     </testsuites>
     <filter>
