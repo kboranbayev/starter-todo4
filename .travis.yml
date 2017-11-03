@@ -5,5 +5,6 @@ sudo: enabled
 language: php
 
 script:
-  - phpunit --coverage-html ./application/tests/report ./application/tests/TestTask.php
+  - cd application/tests
+  - phpunit --coverage-html report TaskTest.php
 
