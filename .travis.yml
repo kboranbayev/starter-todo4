@@ -7,4 +7,5 @@ language: php
 script:
   - cd application/tests
   - phpunit --coverage-html report TaskTest.php
+  - phpunit --coverage-html report TaskListTest.php
 
