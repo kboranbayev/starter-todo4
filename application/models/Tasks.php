@@ -40,6 +40,29 @@ class Tasks extends CSV_Model {
             );
             return $config;
         }
+
+        // gets all tasks that are completed
+        public function getCompletedTasks() {
+            // extract the done tasks
+            foreach ($this->all() as $task)
+            {
+                if ($task->status == 2)
+                    $done[] = $task;
+            }
+            return $done;
+        }
+
+        // gets all tasks that are uncompleted
+        public function getUncompletedTasks() {
+            // extract the undone tasks
+            foreach ($this->all() as $task)
+            {
+                if ($task->status != 2)
+                    $undone[] = $task;
+            }
+            return $undone;
+        }
+
 }
 // return -1, 0, or 1 of $a's category name is earlier, equal to, or later than $b's
 function orderByCategory($a, $b)
