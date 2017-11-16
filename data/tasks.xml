@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document: tasks.xml
+    Created on: 2017/11/16
+    Author: Michael
+    Description: Entries of tasks which includes, ID, task name, priority,
+                 size, group, deadline, status, flag.
+-->
+
+
+<root>
+    <entry>
+        <id>1</id>
+        <taskName>COMP1234 Assignment</taskName>
+        <priority>3</priority>
+        <size>2</size>
+        <group>2</group>
+        <deadline>20170219</deadline>
+        <status>1</status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>2</id>
+        <taskName>Mow the lawn</taskName>
+        <priority>2</priority>
+        <size>2</size>
+        <group>1</group>
+        <deadline></deadline>
+        <status>1</status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>3</id>
+        <taskName>Wash the car</taskName>
+        <priority>2</priority>
+        <size>2</size>
+        <group>1</group>
+        <deadline></deadline>
+        <status>1</status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>4</id>
+        <taskName>Paint the fence</taskName>
+        <priority>1</priority>
+        <size>2</size>
+        <group>1</group>
+        <deadline></deadline>
+        <status></status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>6</id>
+        <taskName>Intramural hockey game</taskName>
+        <priority>1</priority>
+        <size>2</size>
+        <group>4</group>
+        <deadline></deadline>
+        <status></status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>7</id>
+        <taskName>Canucks hockey game</taskName>
+        <priority>3</priority>
+        <size>3</size>
+        <group>4</group>
+        <deadline>20170305</deadline>
+        <status></status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>8</id>
+        <taskName>Buy steel-toed boots</taskName>
+        <priority>2</priority>
+        <size>1</size>
+        <group>3</group>
+        <deadline></deadline>
+        <status></status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>9</id>
+        <taskName>Learn French</taskName>
+        <priority>1</priority>
+        <size>3</size>
+        <group>3</group>
+        <deadline>20161231</deadline>
+        <status>1</status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>10</id>
+        <taskName>Hit the gym</taskName>
+        <priority>2</priority>
+        <size>1</size>
+        <group>4</group>
+        <deadline></deadline>
+        <status></status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>11</id>
+        <taskName>Pay bills</taskName>
+        <priority>3</priority>
+        <size>1</size>
+        <group>1</group>
+        <deadline></deadline>
+        <status>2</status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>12</id>
+        <taskName>Meet George</taskName>
+        <priority>2</priority>
+        <size>1</size>
+        <group>1</group>
+        <deadline></deadline>
+        <status></status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>13</id>
+        <taskName>Buy milk & bread</taskName>
+        <priority>2</priority>
+        <size>1</size>
+        <group>1</group>
+        <deadline></deadline>
+        <status></status>
+        <flag>1</flag>
+    </entry>
+    <entry>
+        <id>14</id>
+        <taskName>Read War & Peace</taskName>
+        <priority>1</priority>
+        <size>3</size>
+        <group>1</group>
+        <deadline></deadline>
+        <status></status>
+        <flag></flag>
+    </entry>
+    <entry>
+        <id>15</id>
+        <taskName>Organize the study</taskName>
+        <priority>1</priority>
+        <size>4</size>
+        <group>1</group>
+        <deadline></deadline>
+        <status></status>
+        <flag></flag>
+    </entry>
+</root>
