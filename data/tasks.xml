@@ -6,12 +6,10 @@
     Description: Entries of tasks which includes, ID, task name, priority,
                  size, group, deadline, status, flag.
 -->
-
-
 <root>
     <entry>
         <id>1</id>
-        <taskName>COMP1234 Assignment</taskName>
+        <task>COMP1234 Assignment</task>
         <priority>3</priority>
         <size>2</size>
         <group>2</group>
@@ -21,7 +19,7 @@
     </entry>
     <entry>
         <id>2</id>
-        <taskName>Mow the lawn</taskName>
+        <task>Mow the lawn</task>
         <priority>2</priority>
         <size>2</size>
         <group>1</group>
@@ -31,7 +29,7 @@
     </entry>
     <entry>
         <id>3</id>
-        <taskName>Wash the car</taskName>
+        <task>Wash the car</task>
         <priority>2</priority>
         <size>2</size>
         <group>1</group>
@@ -41,7 +39,7 @@
     </entry>
     <entry>
         <id>4</id>
-        <taskName>Paint the fence</taskName>
+        <task>Paint the fence</task>
         <priority>1</priority>
         <size>2</size>
         <group>1</group>
@@ -51,7 +49,7 @@
     </entry>
     <entry>
         <id>6</id>
-        <taskName>Intramural hockey game</taskName>
+        <task>Intramural hockey game</task>
         <priority>1</priority>
         <size>2</size>
         <group>4</group>
@@ -61,7 +59,7 @@
     </entry>
     <entry>
         <id>7</id>
-        <taskName>Canucks hockey game</taskName>
+        <task>Canucks hockey game</task>
         <priority>3</priority>
         <size>3</size>
         <group>4</group>
@@ -71,7 +69,7 @@
     </entry>
     <entry>
         <id>8</id>
-        <taskName>Buy steel-toed boots</taskName>
+        <task>Buy steel-toed boots</task>
         <priority>2</priority>
         <size>1</size>
         <group>3</group>
@@ -81,7 +79,7 @@
     </entry>
     <entry>
         <id>9</id>
-        <taskName>Learn French</taskName>
+        <task>Learn French</task>
         <priority>1</priority>
         <size>3</size>
         <group>3</group>
@@ -91,7 +89,7 @@
     </entry>
     <entry>
         <id>10</id>
-        <taskName>Hit the gym</taskName>
+        <task>Hit the gym</task>
         <priority>2</priority>
         <size>1</size>
         <group>4</group>
@@ -101,7 +99,7 @@
     </entry>
     <entry>
         <id>11</id>
-        <taskName>Pay bills</taskName>
+        <task>Pay bills</task>
         <priority>3</priority>
         <size>1</size>
         <group>1</group>
@@ -111,7 +109,7 @@
     </entry>
     <entry>
         <id>12</id>
-        <taskName>Meet George</taskName>
+        <task>Meet George</task>
         <priority>2</priority>
         <size>1</size>
         <group>1</group>
@@ -121,7 +119,7 @@
     </entry>
     <entry>
         <id>13</id>
-        <taskName>Buy milk & bread</taskName>
+        <task>Buy milk &amp; bread</task>
         <priority>2</priority>
         <size>1</size>
         <group>1</group>
@@ -131,7 +129,7 @@
     </entry>
     <entry>
         <id>14</id>
-        <taskName>Read War & Peace</taskName>
+        <task>Read War &amp; Peace</task>
         <priority>1</priority>
         <size>3</size>
         <group>1</group>
@@ -141,7 +139,7 @@
     </entry>
     <entry>
         <id>15</id>
-        <taskName>Organize the study</taskName>
+        <task>Organize the study</task>
         <priority>1</priority>
         <size>4</size>
         <group>1</group>
